@@ -1,0 +1,39 @@
+ /* MIS ESTILOS */
+   html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {  
+    font-family: 'Jost', sans-serif; 
+    font-size: 1.6rem;    
+    line-height: 2;   
+    width: 100vw;
+    margin: 0 auto;    
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+p {
+    font-size: 2rem;
+}

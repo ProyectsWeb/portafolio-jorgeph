@@ -1,0 +1,23 @@
+@import 'variables';
+
+
+.terminos_politicas{   
+    background-color: $color-primary; 
+    display: flex;     
+    justify-content: flex-end;   
+    height: 5rem;
+    padding-bottom: 5rem;     
+    a{     
+        margin-right: 2rem;
+        color: #fff;
+        text-decoration: none;      
+    }
+}
+
+@media (max-width: 600px){
+    .terminos_politicas{
+       height: 15rem;        
+       text-align: center;
+       flex-direction: column;      
+    }
+}

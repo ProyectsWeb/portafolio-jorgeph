@@ -1,0 +1,143 @@
+@import 'variables';
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    h3{       
+       color: rgba(0, 252, 168, 0.9333333333);
+       padding-top: 2rem;
+       padding-left: 2rem;
+       font-family: "Jost", "sans-serif";
+    }
+   
+    .container_footer{
+        display: flex;                     
+        background-color: $color-primary;               
+        width: 100%;      
+        height: 55rem;  
+        margin: 0 auto;
+        padding-top: 2rem;       
+        .container_logo_footer{
+            display: flex;
+            flex-direction: column;
+            width: 30%;           
+            margin-left: 3rem;
+            color: #fff;
+            font-family: "Jost", "sans-serif";
+            .logo{                      
+              width: 27rem;                                     
+              height: auto;                            
+              overflow: hidden; 
+            }
+
+         .p_footer{           
+            font-size: 2rem;            
+            margin: 2rem auto; 
+            line-height: 1.5;            
+            }
+
+         .span_footer{          
+            font-size: 1.8rem;            
+         }  
+         
+         .btn_suscribir{
+            display: flex;
+            justify-content: space-between;
+            width: 80%;           
+            height: 4.5rem;  
+            .input_footer{
+              width: 65%;      
+                &::placeholder{                    
+                    font-size: 1.7rem;
+                    letter-spacing: 1px;                 
+                    padding-left: 1.4rem;                     
+                }                
+            }
+
+            .btm_footer{
+               background-color: #09aef404;
+               color: #09aff4;
+                width: 40%;                               
+                border: 3px solid #09aff4;                                     
+                margin: 0 auto;             
+                border-radius: 0 .8rem .8rem 0;               
+                cursor: pointer;
+                transition: background-color 1s;                
+                &:hover{
+                    background-color: #09aff4;  
+                    color: #fff;                                  
+                  }                 
+            }
+            
+         }
+        }
+
+        .enlaces_footer, .recursos_footer, .contacto_footer{
+          display: flex;
+          flex-direction: column;
+          margin-left: 1rem;                                
+          width: 19%;  
+          a{
+            margin-top: 1rem;
+            margin-left: 2rem;
+            text-decoration: none;
+            color: #fff;
+        }
+      }
+   }  
+}
+
+@media (max-width: 600px){
+   .footer{    
+      .container_footer{    
+       
+      height: auto;      
+      flex-direction: column;      
+      .container_logo_footer{         
+         width: 100%; 
+         margin-left: 0;
+         .logo{                      
+            width: 100%;          
+          }
+          .p_footer{            
+            text-align: center;                    
+            }
+
+            .btn_suscribir{
+              
+               width: 100%;
+               height: 10rem;
+               flex-direction: column;
+              .input_footer{
+               width: 100%;  
+               height: 4rem;                 
+             }
+             .btm_footer{
+               width: 100%;              
+             }
+            }
+      }
+
+      .span_footer{          
+        text-align: center;        
+      } 
+      .enlaces_footer, .recursos_footer, .contacto_footer{
+         width: 100%;       
+      }
+     }
+   }
+}
+
+@media (min-width: 601px){
+   .footer{   
+     
+   .container_footer{    
+     
+     .container_logo_footer{
+      .btn_suscribir{
+         width: 30rem;        
+      }
+     }
+   }
+   }   
+}
