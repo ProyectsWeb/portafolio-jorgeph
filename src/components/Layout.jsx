@@ -50,7 +50,7 @@ const showMenuRigth = (e)=>{
         <meta name="description" content={description} />
         <meta name="author" content="Jorge Peraza - Portafolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta property='og:image' content="https://design-zavan.vercel.app/img/design-zavan13.png" />
+        <meta property='og:image' content="https://portafolio-jorgeph.vercel.app/img/mifoto.webp" />
         <link rel="icon" href="/dz-zavan.ico" />            
         <title>{title}</title>
      </Head> 
